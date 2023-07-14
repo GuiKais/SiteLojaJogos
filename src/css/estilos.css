@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+body{
+    background-color: rgb(34, 3, 33);
+    color: #ffffff;;
+    width: 100%;
+    min-height: 100vh;
+}
+
+body::before{
+    content: "";
+    background-image: url(../imagens/paredefundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-position: center;
+    opacity: 0.5;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+header img{
+    display: flex;
+    width: 25vh;
+    height: 25vh;
+
+}
+
+header .texto-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 4vh;
+    font-family: 'Oxanium', cursive;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.415);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    gap: 2vh;
+    border-top: 1px solid #ffffff;
+}
+
+footer .whats{
+    display: flex;
+    width: 7vh;
+    height: 4vh;
+    cursor: pointer;
+}
+
+footer .insta{
+    display: flex;
+    width: 4vh;
+    height: 4vh;
+    cursor: pointer;
+}
+
+footer .contato{
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Oxanium', cursive;
+}
+
+.selecao-de-jogo{
+    display: flex;
+    align-items: center;
+    gap: 4vh;
+    justify-content: center;
+    min-height: calc(100vh - 320px);
+}
+
+.selecao-de-jogo .lista-de-jogos{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 4vh;
+    justify-content: center;
+}
+
+.selecao-de-jogo .lista-de-jogos .nome-do-jogo{
+    text-align: center;
+    font-size: 4vh;
+    font-family: 'Teko', sans-serif;
+}
+
+.selecao-de-jogo .jogos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 4vh;
+}
+
+.lista-de-jogos .jogo img{
+    width: 30vh;
+    height: 30vh;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.selecao-de-jogo .titulos-disponiveis{
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Teko', sans-serif;
+}
+
+.rodape .contato{
+    text-align: center;
+    font-size: 3vh;
+}
