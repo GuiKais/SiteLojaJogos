@@ -1,0 +1,90 @@
+@media (max-width: 1120px){
+
+    header{
+        display: flex;
+        gap: 0.6vh;
+    }
+
+    header img{
+        display: flex;
+        width: 10vh;
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+        margin: 1vh;
+    }
+
+    header .texto-principal{
+        display: flex;
+        font-size: 2vh;
+        justify-content: center;
+        align-items: center;
+        margin: 1vh;
+    }
+
+    .selecao-de-jogo .titulos-disponiveis{
+        display: flex;
+        font-size: 3vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-de-jogos .jogo img{
+        display: flex;
+        width: 15vh;
+        height: 15vh;
+        justify-content: center;
+    }
+
+    .selecao-de-jogo .lista-de-jogos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .selecao-de-jogo .lista-de-jogos .nome-do-jogo{
+        display: flex;
+        font-size: 2vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .selecao-de-jogo .jogos{
+        display: flex;
+        gap: 1.5vh;
+    }
+
+    .selecao-de-jogo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3vh;
+    }
+
+    footer{
+        display: flex;
+        width: 100%;
+        height: 7vh;
+        justify-content: center;
+        align-items: center;
+        gap: 0.8vh;
+    }
+
+    .rodape .contato{
+        display: flex;
+        font-size: 1.5vh;
+        margin: 1vh;
+    }
+
+    footer .whats{
+        display: flex;
+        width: 5vh;
+        height: 3vh;
+    }
+
+    footer .insta{
+        display: flex;
+        width: 3vh;
+        height: 3vh;
+        margin: 1vh;
+    }
+}
